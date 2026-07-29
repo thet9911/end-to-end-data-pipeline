@@ -1,0 +1,9 @@
+services:
+  data-pipeline:
+    build: .
+    container_name: end-to-end-data-pipeline
+
+    volumes:
+      - .:/app
+
+    command: python run_pipeline.py
