@@ -1,10 +1,10 @@
-# 🚖 End-to-End Ride Booking Data Engineering Pipeline
+# End-to-End Ride Booking Data Engineering Pipeline
 
 A production-style Data Engineering project built with **PySpark** that simulates a real-world ride-booking platform (similar to Grab or Uber). This project demonstrates the complete data engineering lifecycle—from raw data generation and ingestion to data warehousing and analytics-ready datasets for business intelligence.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project showcases the design and implementation of a modern ETL pipeline using the **Medallion Architecture (Bronze → Silver → Gold)**.
 
@@ -12,7 +12,7 @@ Raw CSV and JSON datasets are ingested into a Bronze layer, cleaned and standard
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
                 Raw Data (CSV / JSON)
@@ -38,7 +38,7 @@ Raw CSV and JSON datasets are ingested into a Bronze layer, cleaned and standard
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project simulates a ride-booking business.
 
@@ -60,7 +60,7 @@ Generated records include:
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -76,7 +76,7 @@ Generated records include:
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 end-to-end-data-pipeline/
@@ -124,7 +124,7 @@ end-to-end-data-pipeline/
 
 ---
 
-# ⚙️ ETL Pipeline
+# ETL Pipeline
 
 ## Bronze Layer
 
@@ -193,7 +193,7 @@ data/gold/
 
 ---
 
-# ⭐ Star Schema
+# Star Schema
 
 ```
                     dim_customer
@@ -270,7 +270,7 @@ sql/analytics/
 
 ---
 
-# ✅ Data Quality
+# Data Quality
 
 The pipeline performs automatic validation including:
 
@@ -297,7 +297,7 @@ Negative amount: 0
 
 ---
 
-# 📊 Power BI Dashboard
+# Power BI Dashboard
 
 The project includes an interactive Power BI dashboard with the following pages:
 
@@ -344,7 +344,7 @@ The project includes an interactive Power BI dashboard with the following pages:
 
 ---
 
-# 🚀 Running the Project
+# Running the Project
 
 ## Clone
 
@@ -392,7 +392,7 @@ python -m src.pipelines.gold_pipeline
 
 ---
 
-# 🐳 Docker
+# Docker
 
 Build
 
@@ -430,7 +430,7 @@ dashboard/screenshots/
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Apache Airflow orchestration
 - AWS S3 integration
@@ -461,7 +461,7 @@ dashboard/screenshots/
 
 ---
 
-# 👤 Author
+# Author
 
 **Thet Myat Noe**
 
