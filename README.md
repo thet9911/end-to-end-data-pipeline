@@ -247,7 +247,7 @@ Trip counts grouped by trip status.
 
 ---
 
-# 🔍 SQL Analytics
+# SQL Analytics
 
 Included SQL queries:
 
