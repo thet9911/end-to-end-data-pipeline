@@ -207,7 +207,7 @@ dim_driver ─────── fact_trip ─────── dim_payment
 
 ---
 
-# 📈 Analytics Tables
+# Analytics Tables
 
 ## revenue_daily
 
@@ -408,7 +408,7 @@ docker compose up
 
 ---
 
-# 📷 Screenshots
+# Screenshots
 
 Architecture
 
@@ -443,7 +443,7 @@ dashboard/screenshots/
 
 ---
 
-# 🎯 Skills Demonstrated
+# Skills Demonstrated
 
 - Data Engineering
 - ETL Pipeline Development
@@ -467,7 +467,7 @@ dashboard/screenshots/
 
 Data Engineer
 
-📍 Singapore
+Singapore
 
 GitHub:
 https://github.com/thet9911
