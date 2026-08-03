@@ -51,7 +51,6 @@ def main():
         reviews
     )
     
-
     logger.info("Building analytics tables...")
     generate_report(fact_trip)
 
